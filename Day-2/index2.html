@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+
+        .one 
+        {
+            width: 300px;
+            height: 300px;
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="one" id="one">
+
+       
+
+    </div>
+
+
+    <script>
+
+        function doSomething()
+        {
+            console.log("Hello");
+        }
+
+        let heading  = document.createElement("h1");
+        heading.innerText="hello";
+        heading.addEventListener("click",doSomething);
+
+
+        document.getElementById("one").appendChild(heading);
+
+
+        // document.getElementById("one").innerHTML="<h1>hello</h1>";
+
+        
+
+
+    </script>
+
+</body>
+</html>
