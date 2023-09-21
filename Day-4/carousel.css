@@ -1,0 +1,48 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main
+{
+    width: 100%;
+    height: 700px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner
+{
+    width: 70%;
+    height: 600px;
+    background-color: gray;
+    overflow: hidden;
+}
+
+.carousel
+{
+    height:600px ;
+    width: 500%;
+    background-color: green;
+    display: flex;
+    /* margin-left: -200%; */
+}
+
+.slide
+{
+    width: 20%;
+    height: 100%;
+    background-color: yellow;
+    font-size: 100px;
+    overflow: hidden;
+}
+
+.slide-img
+{
+    width: 100%;
+    margin-top: -200px;
+}
