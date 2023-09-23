@@ -1,0 +1,86 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: segoe UI;
+}
+
+.main
+{
+    width: 100%;
+    padding: 50px 10%;
+    /* background-color: gray; */
+
+}
+
+.container
+{
+    width: 100%;
+    padding: 20px;
+    /* background-color: red; */
+}
+
+.header
+{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading
+{
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.search
+{
+    width: 20%;
+    font-size: 18px;
+    text-indent: 20px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid gray;
+
+}
+
+.pagination 
+{
+    width: 100%;
+    padding: 5px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+
+.pagination  button 
+{
+    width: 30px;
+    height: 30px;
+}
+
+
+.nums 
+{
+    
+    display: flex;
+    column-gap: 10px;
+}
+
+.table
+{
+    width: 100%;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+th,td
+{
+    font-size: 20px;
+    border: 1px solid rgb(218, 217, 217);
+    padding: 10px;
+    text-align: center;
+}
